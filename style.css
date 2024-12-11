@@ -1,0 +1,86 @@
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}h1
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#cal
+{
+    margin-top:50px;
+    background-color: black;
+    height:530px;
+    width:450px;
+    margin-left: 490px;
+    border-radius: 40px;
+}
+#display input
+{
+    margin-top:50px;
+    margin-left:50px;
+    background-color: white;
+    height:70px;
+    width:350px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.container
+{ margin-top:50px;
+    margin-left:60px;
+    margin-bottom:50px;
+}
+.btn
+{
+height:70px;
+width:70px;
+border-radius: 25px;
+margin:5px;
+font-size: 20px;
+}.btn:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+/*media queries*/
+@media(max-width:767px)
+{
+    h1{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cal
+    {
+        margin-left:100px;
+    }
+}
+@media(min-width:766px) and (max-width:1024px)
+{
+    h1{
+        display:flex;
+    justify-content: center;
+    align-items: center;
+        
+    }
+        #cal
+        {
+            margin-left:125px;
+        }
+}
+@media(min-width:1025px) and (max-width:1280px)
+{
+    h1{
+        display:flex;
+    justify-content: center;
+    align-items: center;
+        
+    }
+        #cal
+        {
+            margin-left:250px;
+        }
+}
